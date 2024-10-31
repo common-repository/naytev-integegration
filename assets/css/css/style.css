@@ -1,0 +1,493 @@
+/** Styles **/
+.naytev_template.tw .post .message, .naytev_template.tw .chat ul.messages .messagebox .message {
+  clear: both;
+  zoom: 1;
+}
+.naytev_template.tw .post .message:before, .naytev_template.tw .chat ul.messages .messagebox .message:before, .naytev_template.tw .post .message:after, .naytev_template.tw .chat ul.messages .messagebox .message:after {
+  content: "";
+  display: table;
+}
+.naytev_template.tw .post .message:after, .naytev_template.tw .chat ul.messages .messagebox .message:after {
+  clear: both;
+}
+
+#wp_naytev_fb_social_box h3.hndle, #wp_naytev_twt_social_box h3.hndle {
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  border-bottom: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  zoom: 1;
+  background-image: none;
+}
+
+.naytev_template.fb {
+  text-align: left;
+  min-width: 300px;
+  max-width: 580px;
+  font-size: 11px;
+}
+.naytev_template.fb .classic {
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #adadad;
+  padding-left: 3px;
+}
+.naytev_template.fb .classic .previewContainer {
+  padding: 10px 0px 5px 5px;
+}
+.naytev_template.fb .classic .topLine {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 10px;
+}
+.naytev_template.fb .classic .statusPic {
+  float: left;
+  height: auto;
+  width: 20%;
+}
+.naytev_template.fb .classic .statusPic img {
+  height: auto;
+  width: 70%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+.naytev_template.fb .classic .statusContent {
+  float: left;
+  width: 80%;
+}
+.naytev_template.fb .classic .statusContent p {
+  margin: 0;
+}
+.naytev_template.fb .classic .statusContent .sponsorTags {
+  color: #a7a7a7;
+}
+.naytev_template.fb .classic .statusName {
+  font-weight: 900;
+  color: #2b5599;
+  margin-bottom: 3px;
+}
+.naytev_template.fb .classic textarea.statusText {
+  width: 90%;
+}
+.naytev_template.fb .classic .statusText {
+  min-height: 48px;
+  margin-bottom: 5px;
+}
+.naytev_template.fb .classic .statusText .statusAddition {
+  display: block;
+  color: #777;
+}
+.naytev_template.fb .classic .likeBar {
+  background-color: #eceff8;
+  min-height: 27px;
+  width: 100%;
+  clear: both;
+  display: none;
+}
+.naytev_template.fb .classic .likeBar .thumb {
+  margin: 4px 5px 0px 5px;
+  float: left;
+}
+.naytev_template.fb .classic .likeBar p {
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+.naytev_template.fb .classic .likeBar .statusLikes {
+  float: left;
+  color: #2b5599;
+  margin-right: 3px;
+}
+.naytev_template.fb .classic .likeBar .statusLikes span {
+  color: #000;
+}
+.naytev_template.fb .classic .likeBar .statusOtherLikes {
+  float: left;
+}
+.naytev_template.fb .classic .likeBar .statusOtherLikes span {
+  color: #2b5599;
+}
+.naytev_template.fb .classic .image {
+  background-color: #f7f7f7;
+  border: 1px solid #888;
+  margin: 10px 0 10px;
+  height: auto;
+  min-height: 73px;
+  width: 90%;
+}
+.naytev_template.fb .classic .image img {
+  vertical-align: top;
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  border-right: 1px solid #888;
+}
+.naytev_template.fb .classic .image .content {
+  display: inline-block;
+  width: 70%;
+  padding: 8px 0px 8px 10px;
+}
+.naytev_template.fb .classic .image .content .title {
+  font-weight: 900;
+  color: #3b5998;
+  margin-bottom: 2px;
+}
+.naytev_template.fb .classic .image .content .caption, .naytev_template.fb .classic .image .content .description {
+  color: #89919c;
+}
+.naytev_template.fb .classic .comment {
+  background-color: #eceff8;
+}
+.naytev_template.fb .classic .comment .commentPic {
+  float: left;
+  margin: 5px 9px 5px 5px;
+  height: 32px;
+  width: 32px;
+}
+.naytev_template.fb .classic .comment .commentPic img {
+  height: 32px;
+  width: 32px;
+}
+.naytev_template.fb .classic .comment .commentContent {
+  float: left;
+  width: 310px;
+  margin-top: 0px;
+  padding: 5px 5px 0px 0px;
+}
+.naytev_template.fb .classic .comment .commentName {
+  float: left;
+  font-weight: bold;
+  color: #2b5599;
+  margin-right: 3px;
+}
+.naytev_template.fb .classic .comment .commentText {
+  margin-bottom: 2px;
+}
+.naytev_template.fb .classic .comment .thumb {
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin: 0px 3px;
+}
+.naytev_template.fb .classic .comment .commentLikeWord {
+  color: #6a91a7;
+}
+.naytev_template.fb .classic .write {
+  background-color: #eceff8;
+  display: none;
+}
+.naytev_template.fb .classic .write .boxWrap {
+  padding: 5px 8px 5px 5px;
+}
+.naytev_template.fb .classic .write .box {
+  height: 20px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #c4c5ca;
+}
+.naytev_template.fb .classic .write .box p {
+  color: #888888;
+  margin: 3px;
+}
+.naytev_template.fb .classic .borderLine {
+  height: 0px;
+  border-top: 1px solid #d8d9de;
+  border-bottom: 1px solid #fff;
+  clear: both;
+}
+.naytev_template.fb .classic .classic .statusLinks, .naytev_template.fb .classic .commentLinks, .naytev_template.fb .classic .commentLikes {
+  color: #6a91a7;
+  margin-bottom: 5px;
+}
+.naytev_template.fb .classic .classic .statusLinks .statusDate, .naytev_template.fb .classic .commentLinks span {
+  color: #b2b2b4;
+}
+.naytev_template.fb .classic .statusLinks {
+  padding: 5px;
+  width: 90%;
+}
+.naytev_template.fb .classic .statusComments {
+  background-color: #edeff4;
+  padding: 5px;
+  width: 90%;
+  color: #89919c;
+}
+.naytev_template.fb .classic .statusComments img {
+  margin-right: 5px;
+}
+.naytev_template.fb .classic .statusComments span {
+  color: #3b5998;
+}
+.naytev_template.fb .classic .classic .comment .commentLinks, .naytev_template.fb .classic .comment .commentLikes {
+  float: left;
+}
+
+#wp_naytev_fb_social_box {
+  overflow: auto;
+  overflow-x: hidden;
+}
+#wp_naytev_fb_social_box h3.hndle {
+  background-color: #3b5998;
+}
+
+.naytev_template.tw {
+  margin-left: 0px;
+  padding: 0px 0px 20px 0px;
+  font-family: arial;
+  font-size: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  border: solid 1px #fff;
+  overflow: hidden;
+}
+.naytev_template.tw .post {
+  clear: both;
+  overflow: hidden;
+}
+.naytev_template.tw .post .img {
+  float: left;
+  width: 60px;
+}
+.naytev_template.tw .post .name {
+  float: left;
+}
+.naytev_template.tw .post .name .username {
+  color: #333333;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+.naytev_template.tw .post .name .at {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  padding-top: 4px;
+}
+.naytev_template.tw .post .follow {
+  float: right;
+  width: 130px;
+}
+.naytev_template.tw .post .message {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  color: #333335;
+  margin: 15px 0 10px 0;
+  line-height: 120%;
+}
+.naytev_template.tw .post .message span.link {
+  color: #0084b4;
+}
+.naytev_template.tw .post ul#options {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
+.naytev_template.tw .post ul#options li {
+  color: #0084b4;
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+}
+.naytev_template.tw .post ul#options li img {
+  vertical-align: top;
+}
+.naytev_template.tw .post .date {
+  color: #999999;
+  font-size: 12px;
+  display: block;
+  margin-top: 10px;
+}
+.naytev_template.tw .chat {
+  background-color: #f5f8fa;
+  width: 525px;
+}
+.naytev_template.tw .chat .top {
+  background-image: url("http://www.naytev.com/gfx/generators/twitter/message_top.jpg");
+  background-repeat: repeat-x;
+  height: 14px;
+  border-bottom: solid 1px #e8e8e8;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: bold;
+  color: #333333;
+  padding: 15px;
+  overflow: hidden;
+}
+.naytev_template.tw .chat .top .directmessages {
+  color: #072250;
+}
+.naytev_template.tw .chat ul.messages {
+  padding: 15px;
+  margin: 0;
+  overflow: hidden;
+}
+.naytev_template.tw .chat ul.messages li {
+  list-style: none;
+  overflow: auto;
+  clear: both;
+  margin-bottom: 20px;
+}
+.naytev_template.tw .chat ul.messages li.left .messagebox {
+  float: left;
+  max-width: 380px;
+}
+.naytev_template.tw .chat ul.messages li.left .messagebox .date {
+  color: #bbbcbe;
+  font-size: 11px;
+  text-align: center;
+  vertical-align: top;
+  width: 380px;
+  overflow: hidden;
+  clear: both;
+}
+.naytev_template.tw .chat ul.messages li.left .messagebox .message {
+  background-color: #f5f5f5;
+  border: solid 1px #dddee0;
+  border-radius: 4px;
+  max-width: 310px;
+  padding: 6px 10px;
+  font-family: arial;
+  margin-left: 10px;
+  float: left;
+  color: #333333;
+  line-height: 140%;
+}
+.naytev_template.tw .chat ul.messages li.left .img {
+  float: left;
+  width: 54px;
+}
+.naytev_template.tw .chat ul.messages li.left .img .arrow {
+  background-image: url("http://www.naytev.com/gfx/generators/twitter/message_left_arrow.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  margin-left: 60px;
+  margin-top: -20px;
+}
+.naytev_template.tw .chat ul.messages .messagebox {
+  float: right;
+  max-width: 380px;
+  margin-right: 13px;
+}
+.naytev_template.tw .chat ul.messages .messagebox .date {
+  color: #bbbcbe;
+  font-size: 11px;
+  text-align: center;
+  vertical-align: top;
+  width: 367px;
+  overflow: hidden;
+  clear: both;
+}
+.naytev_template.tw .chat ul.messages .messagebox .message {
+  background-color: #e5f2fb;
+  border: solid 1px #dce0e3;
+  border-radius: 4px;
+  max-width: 310px;
+  padding: 6px 10px;
+  font-family: arial;
+  margin-left: 10px;
+  float: right;
+  color: #333333;
+  line-height: 140%;
+}
+.naytev_template.tw .chat ul.messages .img {
+  float: right;
+  width: 54px;
+}
+.naytev_template.tw .chat ul.messages .img .arrow {
+  background-image: url("http://www.naytev.com/gfx/generators/twitter/message_right_arrow.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  margin-left: -15px;
+  margin-top: -20px;
+}
+
+#wp_naytev_twt_social_box {
+  overflow: auto;
+  overflow-x: hidden;
+}
+#wp_naytev_twt_social_box h3.hndle {
+  background-color: #00aced;
+}
+
+.variant_id {
+  display: none !important;
+  margin: 0;
+}
+
+.repeat-element.wp_naytev_variant_meta {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.repeat-element.wp_naytev_variant_meta h3.repeat-meta {
+  max-width: 85%;
+  cursor: pointer;
+}
+.repeat-element.wp_naytev_variant_meta h3.repeat-meta.inactive {
+  background-color: #85d0a1;
+}
+.repeat-element.wp_naytev_variant_meta h3.repeat-meta .naytev-stats {
+  float: right;
+  margin-left: 6px;
+}
+
+.repeater-container {
+  width: 45%;
+  margin-right: 0;
+  margin-left: 0;
+  float: left;
+}
+.repeater-container input {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.naytev_template {
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 0;
+  margin-bottom: 16px;
+  float: right;
+}
+.naytev_template h5 {
+  margin: .5em 0;
+}
+@media (max-width: 1090px) {
+  .naytev_template {
+    float: left;
+  }
+}
+
+.btn-danger {
+  background-color: #de3434;
+  color: white;
+  margin-right: 10px;
+  margin-left: 20px;
+  border: 0;
+}
+.btn-danger:hover {
+  background-color: #922222;
+}
+
+#wp_naytev_experiment_id_box {
+  display: none;
+  margin: 0;
+}
+
+#wp_naytev_template_box {
+  display: none;
+  margin: 0;
+  padding: 0;
+}

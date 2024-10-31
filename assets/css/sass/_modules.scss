@@ -1,0 +1,57 @@
+.variant_id{
+  display:none!important;
+  margin: 0;
+}
+
+.repeat-element.wp_naytev_variant_meta {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  h3.repeat-meta{
+    max-width: 85%;
+    cursor: pointer;
+    &.inactive {
+      background-color: $naytevGreenHightlight;
+    }
+    & .naytev-stats {
+      float: right;
+      margin-left: 6px;
+    }
+  }
+}
+
+.repeater-container {
+  width: 45%;
+  margin-right: 0;
+  margin-left: 0;
+  float:left;
+  input {
+    max-width:100%;
+    margin-bottom: 10px;
+  }
+}
+
+.naytev_template {
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 0;
+  margin-bottom: 16px;
+  float: right;
+  h5 {
+    margin: .5em 0;
+  }
+  @media (max-width: 1090px) {
+    float: left;
+  }
+}
+
+.btn-danger{
+    background-color: $naytevRedHighlight;
+    color: white;
+    margin-right: 10px;
+    margin-left: 20px;
+    border: 0;
+    &:hover{
+      background-color: $naytevRed;
+    }
+}

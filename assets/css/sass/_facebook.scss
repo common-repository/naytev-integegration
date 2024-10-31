@@ -1,0 +1,213 @@
+.naytev_template.fb {
+    text-align: left;
+    min-width:300px;
+    max-width:580px;
+    font-size:11px;
+    .classic {
+      text-align: left;
+      background-color:#fff;
+      border:1px solid $neutralGrey;
+      padding-left:3px;
+      .previewContainer {
+        padding:10px 0px 5px 5px;
+      }
+      .topLine {
+        width:100%;
+        height:1px;
+        margin-bottom:10px;
+      }
+      .statusPic {
+        float:left;
+        height:auto;
+        width:20%;
+        img {
+          height:auto;
+          width:70%;
+          margin-left:10%;
+          margin-right:20%;
+        }
+      }
+      .statusContent {
+        float:left;
+        width:80%;
+        p {
+          margin: 0;
+        }
+        .sponsorTags{
+          color: #a7a7a7;
+        }
+      }
+      .statusName {
+        font-weight:900;
+        color:#2b5599;
+        margin-bottom:3px;
+      }
+      textarea.statusText{
+        width: 90%;
+      }
+      .statusText {
+        min-height:48px;
+        margin-bottom:5px;
+        .statusAddition{
+          display: block;
+          color: #777;
+        }
+      }
+      .likeBar {
+        background-color:#eceff8;
+        min-height:27px;
+        width:100%;
+        clear:both;
+        display:none;
+        .thumb {
+          margin:4px 5px 0px 5px;
+          float:left;
+        }
+        p {
+          padding-top:6px;
+          padding-bottom:5px;
+        }
+        .statusLikes {
+          float:left;
+          color:#2b5599;
+          margin-right:3px;
+          span {
+            color:#000;
+          }
+        }
+        .statusOtherLikes {
+          float:left;
+          span {
+            color:#2b5599;
+          }
+        }
+      }
+      .image{
+        background-color:#f7f7f7;
+        border: 1px solid #888;
+        margin: 10px 0 10px;
+        height: auto;
+        min-height:73px;
+        width: 90%;
+        img{
+          vertical-align: top;
+          display: inline-block;
+          width: 25%;
+          height: auto;
+          border-right: 1px solid #888;
+        }
+        .content{
+          display: inline-block;
+          width: 70%;
+          padding: 8px 0px 8px 10px;;
+          .title{
+            font-weight:900;
+            color:rgb(59, 89, 152);
+            margin-bottom: 2px;
+          }
+          .caption, .description{
+            color: rgb(137, 145, 156);
+          }
+        }
+      }
+      .comment {
+        background-color:#eceff8;
+        .commentPic {
+          float:left;
+          margin: 5px 9px 5px 5px;
+          height:32px;
+          width:32px;
+          img {
+            height:32px;
+            width:32px;
+          }
+        }
+        .commentContent {
+          float:left;
+          width:310px;
+          margin-top:0px;
+          padding:5px 5px 0px 0px;
+        }
+        .commentName {
+          float:left;
+          font-weight:bold;
+          color:#2b5599;
+          margin-right:3px;
+        }
+        .commentText {
+          margin-bottom:2px;
+        }
+        .thumb {
+          width:12px;
+          height:12px;
+          float:left;
+          margin:0px 3px;
+        }
+        .commentLikeWord {
+          color:#6a91a7;
+        }
+      }
+      .write {
+        background-color:#eceff8;
+        display:none;
+        .boxWrap {
+          padding:5px 8px 5px 5px;
+        }
+        .box {
+          height:20px;
+          width:100%;
+          background:#fff;
+          border:1px solid #c4c5ca;
+          p {
+            color:#888888;
+            margin:3px;
+          }
+        }
+      }
+      .borderLine {
+        height:0px;
+        border-top:1px solid #d8d9de;
+        border-bottom:1px solid #fff;
+        clear:both;
+      }
+
+    .classic .statusLinks, .commentLinks, .commentLikes {
+      color:#6a91a7;
+      margin-bottom:5px;
+    }
+    .classic .statusLinks .statusDate, .commentLinks span {
+      color:#b2b2b4;
+    }
+
+    .statusLinks{
+      padding:5px;
+      width:90%;
+    }
+
+    .statusComments{
+      background-color:#edeff4;
+      padding:5px;
+      width:90%;
+      color:#89919c;
+      img{
+        margin-right:5px;
+      }
+      span{
+        color:rgb(59, 89, 152);
+      }
+    }
+
+    .classic .comment .commentLinks, .comment .commentLikes {
+      float:left;
+    }
+  }
+}
+
+#wp_naytev_fb_social_box {
+  overflow: auto;
+  overflow-x: hidden;
+  h3.hndle {
+    background-color: rgb(59, 89, 152);
+    @extend %social-box-header;
+  }
+}
